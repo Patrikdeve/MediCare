@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     port: 3001, 
     proxy: {
-      '/api': 'http://localhost:4000',
+      '/api': 'https://medicare-backend-4dz2.onrender.com',
     }
   }, 
 })
